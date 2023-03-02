@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: gray;
+  width: 50%;
+  margin: 20px auto;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.container-title {
+  text-align: center;
+  color: white;
+}
+
+.form-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+label {
+  margin-bottom: 5px;
+}
